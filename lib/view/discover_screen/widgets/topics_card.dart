@@ -3,9 +3,9 @@ import 'package:inshort_clone/controller/feed_controller.dart';
 import 'package:inshort_clone/global/global.dart';
 import 'package:inshort_clone/style/colors.dart';
 import 'package:inshort_clone/style/text_style.dart';
-
+import 'package:lottie/lottie.dart';
 class TopicCard extends StatelessWidget {
-  final String icon;
+  final  icon;
   final String title;
   final Function onTap;
 
@@ -34,10 +34,14 @@ class TopicCard extends StatelessWidget {
           children: <Widget>[
             Align(
               alignment: Alignment.center,
-              child: Image.asset(
-                "assets/icons/$icon.png",
-                fit: BoxFit.contain,
-              ),
+              // child: Image.asset(
+              //   "assets/icons/$icon.gif",
+              //   fit: BoxFit.contain,
+              // ),
+              child: Lottie.network(
+                '$icon'),
+              //   fit: BoxFit.contain,
+
             ),
             Align(
               alignment: Alignment.bottomLeft,

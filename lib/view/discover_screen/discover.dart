@@ -9,7 +9,6 @@ import 'package:inshort_clone/view/discover_screen/widgets/category_card.dart';
 import 'package:inshort_clone/view/discover_screen/widgets/headline.dart';
 import 'package:inshort_clone/view/discover_screen/widgets/topics_card.dart';
 import 'package:provider/provider.dart';
-
 import 'widgets/app_bar.dart';
 
 class DiscoverScreen extends StatefulWidget {
@@ -51,7 +50,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                       CategoryCard(
                         title:
                             AppLocalizations.of(context).translate("my_feed"),
-                        icon: "all",
+                        icon: "https://assets1.lottiefiles.com/packages/lf20_VyblYx.json",
                         active: provider.getActiveCategory == 1,
                         onTap: () {
                           provider.setActiveCategory(1);
@@ -66,7 +65,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                       CategoryCard(
                         title:
                             AppLocalizations.of(context).translate("trending"),
-                        icon: "trending",
+                        icon: "https://assets10.lottiefiles.com/datafiles/KB7F0ArTJgo6IeN/data.json",
                         active: provider.getActiveCategory == 2,
                         onTap: () {
                           provider.setActiveCategory(2);
@@ -81,7 +80,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                       CategoryCard(
                         title:
                             AppLocalizations.of(context).translate("bookmark"),
-                        icon: "bookmark",
+                        icon: "https://assets4.lottiefiles.com/datafiles/SkdS7QDyJTKTdwA/data.json",
                         active: provider.getActiveCategory == 3,
                         onTap: () {
                           provider.setActiveCategory(3);
@@ -96,7 +95,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                       CategoryCard(
                         title:
                             AppLocalizations.of(context).translate("unreads"),
-                        icon: "unread",
+                        icon: "https://assets9.lottiefiles.com/temp/lf20_ZGnXlB.json",
                         active: provider.getActiveCategory == 4,
                         onTap: () {
                           provider.setActiveCategory(4);
@@ -128,7 +127,8 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                   TopicCard(
                     title:
                         AppLocalizations.of(context).translate("coronavirus"),
-                    icon: "coronavirus",
+                    // icon: "coronavirus",
+                    icon:  "https://assets8.lottiefiles.com/packages/lf20_wv4mTG.json",
                     onTap: () {
                       provider.setAppBarTitle(AppLocalizations.of(context)
                           .translate("coronavirus"));
@@ -140,7 +140,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                   ),
                   TopicCard(
                     title: AppLocalizations.of(context).translate("india"),
-                    icon: "india",
+                    icon: "https://assets10.lottiefiles.com/datafiles/5FGDT1tGd6PRFWjrlnK36tsX4dv7kt1ihUMebNma/india.json",
                     onTap: () {
                       provider.setAppBarTitle(
                           AppLocalizations.of(context).translate("india"));
@@ -152,7 +152,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                   ),
                   TopicCard(
                     title: AppLocalizations.of(context).translate("business"),
-                    icon: "business",
+                    icon: "https://assets8.lottiefiles.com/packages/lf20_BzsCRH.json",
                     onTap: () {
                       provider.setAppBarTitle(
                           AppLocalizations.of(context).translate("business"));
@@ -164,7 +164,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                   ),
                   TopicCard(
                     title: AppLocalizations.of(context).translate("politics"),
-                    icon: "politics",
+                    icon: "https://assets6.lottiefiles.com/packages/lf20_gSemY3.json",
                     onTap: () {
                       provider.setAppBarTitle(
                           AppLocalizations.of(context).translate("politics"));
@@ -176,7 +176,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                   ),
                   TopicCard(
                     title: AppLocalizations.of(context).translate("sports"),
-                    icon: "sports",
+                    icon: "https://assets3.lottiefiles.com/datafiles/ogIQ10UnwnKiBZS/data.json",
                     onTap: () {
                       provider.setAppBarTitle(
                           AppLocalizations.of(context).translate("sports"));
@@ -188,7 +188,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                   ),
                   TopicCard(
                     title: AppLocalizations.of(context).translate("technology"),
-                    icon: "technology",
+                    icon: "https://assets4.lottiefiles.com/packages/lf20_Ns4TLz.json",
                     onTap: () {
                       provider.setAppBarTitle(
                           AppLocalizations.of(context).translate("technology"));
@@ -200,7 +200,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                   ),
                   TopicCard(
                     title: AppLocalizations.of(context).translate("startups"),
-                    icon: "startups",
+                    icon: "https://assets10.lottiefiles.com/packages/lf20_5adtCi.json",
                     onTap: () {
                       provider.setAppBarTitle(
                           AppLocalizations.of(context).translate("startups"));
@@ -213,7 +213,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                   TopicCard(
                     title:
                         AppLocalizations.of(context).translate("entertainment"),
-                    icon: "entertainment",
+                    icon: "https://assets5.lottiefiles.com/datafiles/vpWoQBht24jz6iW/data.json",
                     onTap: () {
                       provider.setAppBarTitle(AppLocalizations.of(context)
                           .translate("entertainment"));
@@ -225,7 +225,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                   ),
                   TopicCard(
                     title: AppLocalizations.of(context).translate("education"),
-                    icon: "education",
+                    icon: "https://assets4.lottiefiles.com/packages/lf20_K7aZUG.json",
                     onTap: () {
                       provider.setAppBarTitle(
                           AppLocalizations.of(context).translate("education"));
@@ -237,7 +237,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                   ),
                   TopicCard(
                     title: AppLocalizations.of(context).translate("automobile"),
-                    icon: "automobile",
+                    icon: "https://assets9.lottiefiles.com/datafiles/HN7OcWNnoqje6iXIiZdWzKxvLIbfeCGTmvXmEm1h/data.json",
                     onTap: () {
                       provider.setAppBarTitle(
                           AppLocalizations.of(context).translate("automobile"));
@@ -249,7 +249,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                   ),
                   TopicCard(
                     title: AppLocalizations.of(context).translate("science"),
-                    icon: "science",
+                    icon: "https://assets7.lottiefiles.com/packages/lf20_zeocn70d.json",
                     onTap: () {
                       provider.setAppBarTitle(
                           AppLocalizations.of(context).translate("science"));
@@ -261,7 +261,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                   ),
                   TopicCard(
                     title: AppLocalizations.of(context).translate("travel"),
-                    icon: "travel",
+                    icon: "https://assets10.lottiefiles.com/datafiles/muoQLO89h8Wo5xg/data.json",
                     onTap: () {
                       provider.setAppBarTitle(
                           AppLocalizations.of(context).translate("travel"));
@@ -273,7 +273,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                   ),
                   TopicCard(
                     title: AppLocalizations.of(context).translate("fashion"),
-                    icon: "fashion",
+                    icon: "https://assets2.lottiefiles.com/packages/lf20_zwijnhaz.json",
                     onTap: () {
                       provider.setAppBarTitle(
                           AppLocalizations.of(context).translate("fashion"));
@@ -283,6 +283,128 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                       );
                     },
                   ),
+                    SizedBox(
+              height: 16,
+            ),
+
+                ],
+              ),
+            ),
+            headLine(AppLocalizations.of(context).translate("others_market")),
+   Padding(
+              padding: const EdgeInsets.all(4.0),
+              child: GridView.count(
+                shrinkWrap: true,
+                childAspectRatio: (1 / 1.4),
+                physics: NeverScrollableScrollPhysics(),
+                crossAxisCount: 3,
+                children: <Widget>[
+                  TopicCard(
+                    title:
+                        AppLocalizations.of(context).translate("deaths"),
+                    // icon: "coronavirus",
+                    icon:  "https://assets5.lottiefiles.com/packages/lf20_0iB3jy.json",
+                    onTap: () {
+                      provider.setAppBarTitle(AppLocalizations.of(context)
+                          .translate("coronavirus"));
+                      FeedController.addCurrentPage(1);
+                      bloc.add(
+                        FetchNewsByTopicEvent(topic: "coronavirus"),
+                      );
+                    },
+                  ),
+                  TopicCard(
+                    title: AppLocalizations.of(context).translate("shopping"),
+                    icon: "https://assets4.lottiefiles.com/packages/lf20_hl349l.json",
+                    onTap: () {
+                      provider.setAppBarTitle(
+                          AppLocalizations.of(context).translate("india"));
+                      FeedController.addCurrentPage(1);
+                      bloc.add(
+                        FetchNewsByTopicEvent(topic: "india"),
+                      );
+                    },
+                  ),
+                  TopicCard(
+                    title: AppLocalizations.of(context).translate("price"),
+                    icon: "https://assets2.lottiefiles.com/packages/lf20_hocmonst.json",
+                    onTap: () {
+                      provider.setAppBarTitle(
+                          AppLocalizations.of(context).translate("business"));
+                      FeedController.addCurrentPage(1);
+                      bloc.add(
+                        FetchNewsByCategoryEvent(category: "business"),
+                      );
+                    },
+                  ),
+                  TopicCard(
+                    title: AppLocalizations.of(context).translate("cars_bikes"),
+                    icon: "https://assets9.lottiefiles.com/datafiles/HN7OcWNnoqje6iXIiZdWzKxvLIbfeCGTmvXmEm1h/data.json",
+                    onTap: () {
+                      provider.setAppBarTitle(
+                          AppLocalizations.of(context).translate("politics"));
+                      FeedController.addCurrentPage(1);
+                      bloc.add(
+                        FetchNewsByTopicEvent(topic: "politics"),
+                      );
+                    },
+                  ),
+                  TopicCard(
+                    title: AppLocalizations.of(context).translate("resorts_hotel"),
+                    icon: "https://assets1.lottiefiles.com/packages/lf20_5ohCYt.json",
+                    onTap: () {
+                      provider.setAppBarTitle(
+                          AppLocalizations.of(context).translate("sports"));
+                      FeedController.addCurrentPage(1);
+                      bloc.add(
+                        FetchNewsByCategoryEvent(category: "sports"),
+                      );
+                    },
+                  ),
+                      TopicCard(
+                    title: AppLocalizations.of(context).translate("husbandry"),
+                    icon: "https://assets2.lottiefiles.com/temp/lf20_tsdGdl.json",
+                    onTap: () {
+                      provider.setAppBarTitle(
+                          AppLocalizations.of(context).translate("sports"));
+                      FeedController.addCurrentPage(1);
+                      bloc.add(
+                        FetchNewsByCategoryEvent(category: "sports"),
+                      );
+                    },
+                  ),
+                   TopicCard(
+                    title: AppLocalizations.of(context).translate("weather"),
+                    icon: "https://assets10.lottiefiles.com/temp/lf20_XkF78Y.json",
+                    onTap: () {
+                      provider.setAppBarTitle(
+                          AppLocalizations.of(context).translate("sports"));
+                      FeedController.addCurrentPage(1);
+                      bloc.add(
+                        FetchNewsByCategoryEvent(category: "sports"),
+                      );
+                    },
+                  ),
+                      TopicCard(
+                    title: AppLocalizations.of(context).translate("hockey"),
+                    icon: "https://assets3.lottiefiles.com/packages/lf20_GWWy4D.json",
+                    onTap: () {
+                      provider.setAppBarTitle(
+                          AppLocalizations.of(context).translate("sports"));
+                      FeedController.addCurrentPage(1);
+                      bloc.add(
+                        FetchNewsByCategoryEvent(category: "sports"),
+                      );
+                    },
+                  ),
+                 
+                
+                 
+               
+                 
+               
+           
+
                 ],
               ),
             ),

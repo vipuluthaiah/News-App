@@ -44,6 +44,7 @@ class BottomActionBar extends StatelessWidget {
                   () => convertWidgetToImageAndShare(context, containerKey));
             },
           ),
+          // ignore: deprecated_member_use
           WatchBoxBuilder(
             box: Hive.box<Articles>('bookmarks'),
             builder: (context, snap) => actionButton(

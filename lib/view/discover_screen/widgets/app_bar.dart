@@ -11,7 +11,7 @@ appSearchBar(context) {
       // color: Colors.white,
       child: GestureDetector(
         onTap: () {
-          Router.navigator.pushNamed(Router.searchScreen);
+          NewRouter.navigator.pushNamed(NewRouter.searchScreen);
         },
         child: Container(
           margin: const EdgeInsets.fromLTRB(16, 98, 16, 16),

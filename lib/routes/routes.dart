@@ -9,7 +9,7 @@ import 'package:inshort_clone/view/settings_screen/settings.dart';
 import 'package:inshort_clone/view/web_screen/web.dart';
 
 @autoRouter
-class $Router {
+class $NewRouter {
   SearchScreen searchScreen;
   SettingsScreen settingsScreen;
   BookmarkScreen bookmarkScreen;

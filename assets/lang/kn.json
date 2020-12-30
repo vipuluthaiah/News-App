@@ -8,6 +8,7 @@
    "unreads": "ಓದಿಲ್ಲ",
    "categories": "ವಿಭಾಗಗಳು",
    "sugested_topics": "ಸೂಚಿಸಿದ ವಿಷಯಗಳು",
+   "others_market":"ಇತರರು",
    "coronavirus": "ಕೊರೊನಾವೈರಸ್",
    "india": "ಭಾರತ",
    "business": "ವ್ಯಾಪಾರ",
@@ -31,5 +32,14 @@
    "swipe_message": "ನಲ್ಲಿ ಹೆಚ್ಚಿನದನ್ನು ಎಡಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡಿ",
    "trending": "ಟ್ರೆಂಡಿಂಗ್",
    "error": "ಏನೋ ತಪ್ಪಾಗಿದೆ!",
-   "error_message": "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಮರುಪ್ರಯತ್ನಿಸಿ"
+   "error_message": "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಮರುಪ್ರಯತ್ನಿಸಿ",
+   "deaths":"Death",
+   "shopping":"Shopping",
+   "price":"Price",
+   "cars_bikes":"Cars/Bikes",
+   "resorts_hotel":"Resorts/Hotel",
+   "husbandry":"Husbandry",
+   "weather":"Weather",
+   "hockey":"Hockey"
+
 }

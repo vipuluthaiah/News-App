@@ -105,8 +105,8 @@ class NewsCard extends StatelessWidget {
                         ),
                         article.urlToImage != null
                             ? GestureDetector(
-                                onTap: () => Router.navigator.pushNamed(
-                                  Router.expandedImageView,
+                                onTap: () => NewRouter.navigator.pushNamed(
+                                  NewRouter.expandedImageView,
                                   arguments: ExpandedImageViewArguments(
                                     image: article.urlToImage,
                                   ),
@@ -134,6 +134,7 @@ class NewsCard extends StatelessWidget {
                           heightFactor: 0.85,
                           child: Padding(
                             padding: const EdgeInsets.fromLTRB(16, 25, 16, 16),
+                            // ignore: deprecated_member_use
                             child: WatchBoxBuilder(
                               box: Hive.box<Articles>('bookmarks'),
                               builder: (context, box) => Column(
@@ -218,7 +219,7 @@ class NewsCard extends StatelessWidget {
                                               ),
                                             ),
                                             SizedBox(width: 8),
-                                            Text("github/imSanjaySoni"),
+                                            Text("50shorts"),
                                           ],
                                         ),
                                         Row(
@@ -229,7 +230,7 @@ class NewsCard extends StatelessWidget {
                                               width: 20,
                                             ),
                                             SizedBox(width: 8),
-                                            Text("Inshorts Clone"),
+                                            Text("50shorts"),
                                           ],
                                         ),
                                       ],

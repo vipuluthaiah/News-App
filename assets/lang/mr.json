@@ -8,6 +8,7 @@
    "unreads": "न वाचलेले",
    "categories": "कॅटेगरीज",
    "sugested_topics": "सूचविलेले विषय",
+   "others_market":"इतर",
    "coronavirus": "कोरोनाविषाणू",
    "india": "भारत",
    "business": "व्यवसाय",
@@ -31,6 +32,15 @@
    "swipe_message": "अधिकसाठी डावीकडे स्वाइप करा",
    "trending": "ट्रेंडिंग",
    "error": "काहीतरी चूक झाली!",
-   "error_message": "कृपया आपले इंटरनेट कनेक्शन तपासा आणि पुन्हा प्रयत्न करा."
+   "error_message": "कृपया आपले इंटरनेट कनेक्शन तपासा आणि पुन्हा प्रयत्न करा.",
+   "deaths":"Death",
+   "shopping":"Shopping",
+   "price":"Price",
+   "cars_bikes":"Cars/Bikes",
+   "resorts_hotel":"Resorts/Hotel",
+   "husbandry":"Husbandry",
+   "weather":"Weather",
+   "hockey":"Hockey"
+
 
 }

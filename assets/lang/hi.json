@@ -8,6 +8,7 @@
    "unreads": "अपठित",
    "categories": "श्रेणियाँ",
    "sugested_topics": "सुगठित विषय",
+   "others_market":"अन्य",
    "coronavirus": "कोरोनावाइरस",
    "india": "भारत",
    "business": "व्यापार",
@@ -31,6 +32,15 @@
    "swipe_message": "अधिक के लिए बाएं स्वाइप करें",
    "trending": "ट्रेंडिंग",
    "error": "कुछ गलत हो गया!",
-   "error_message": "कृपया अपना इंटरनेट कनेक्शन जांचें और पुनः प्रयास करें."
+   "error_message": "कृपया अपना इंटरनेट कनेक्शन जांचें और पुनः प्रयास करें.",
+   "deaths":"Death",
+   "shopping":"Shopping",
+   "price":"Price",
+   "cars_bikes":"Cars/Bikes",
+   "resorts_hotel":"Resorts/Hotel",
+   "husbandry":"Husbandry",
+   "weather":"Weather",
+   "hockey":"Hockey"
+
 
 }

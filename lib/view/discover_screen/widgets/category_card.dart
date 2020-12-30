@@ -3,6 +3,7 @@ import 'package:inshort_clone/controller/feed_controller.dart';
 import 'package:inshort_clone/global/global.dart';
 import 'package:inshort_clone/style/colors.dart';
 import 'package:inshort_clone/style/text_style.dart';
+import 'package:lottie/lottie.dart';
 
 class CategoryCard extends StatelessWidget {
   final String icon;
@@ -29,8 +30,14 @@ class CategoryCard extends StatelessWidget {
           children: <Widget>[
             Opacity(
               opacity: active ? 1 : 0.5,
-              child: Image.asset(
-                "assets/icons/$icon.png",
+              // child: Image.asset(
+              //   "assets/icons/$icon.png",
+              //   height: 70,
+              //   width: 70,
+              //   fit: BoxFit.contain,
+              // ),
+              child: Lottie.network(
+                '$icon',
                 height: 70,
                 width: 70,
                 fit: BoxFit.contain,

@@ -12,6 +12,8 @@ import 'package:inshort_clone/style/colors.dart';
 import 'package:inshort_clone/style/text_style.dart';
 import 'package:provider/provider.dart';
 
+import '../../routes/routes.gr.dart';
+
 class CustomAppBar extends StatelessWidget {
   final int index;
   const CustomAppBar({Key key, this.index = 1}) : super(key: key);
@@ -39,8 +41,8 @@ class CustomAppBar extends StatelessWidget {
                                 FeatherIcons.settings,
                               ),
                               onPressed: () {
-                                Router.navigator
-                                    .pushNamed(Router.settingsScreen);
+                                NewRouter.navigator
+                                    .pushNamed(NewRouter.settingsScreen);
                               },
                             )
                           : Row(

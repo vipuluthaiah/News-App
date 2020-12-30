@@ -10,6 +10,9 @@ import 'package:provider/provider.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 import '../aplication_localization.dart';
+import '../routes/routes.gr.dart';
+// ignore: duplicate_import
+import '../routes/routes.gr.dart';
 
 class App extends StatelessWidget {
   @override
@@ -29,15 +32,15 @@ class App extends StatelessWidget {
       ],
       child: MaterialApp(
           debugShowCheckedModeBanner: false,
-          title: "Inshorts Clone",
+          title: "50shorts",
           theme: kLightThemeData,
           darkTheme: kDarkThemeData,
           themeMode:
               Provider.of<SettingsProvider>(context, listen: true).isDarkThemeOn
                   ? ThemeMode.dark
                   : ThemeMode.light,
-          onGenerateRoute: Router.onGenerateRoute,
-          navigatorKey: Router.navigatorKey,
+          onGenerateRoute: NewRouter.onGenerateRoute,
+          navigatorKey: NewRouter.navigatorKey,
           supportedLocales: [
             Locale('en', 'US'),
             Locale('hi', 'IN'),
